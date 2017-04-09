@@ -16,4 +16,4 @@ if (current_user.try.admin) {
   ...
 }
 ```
-
+It's checking `current_user` and method `admin`. If method exsit then return self else return `undefined`
