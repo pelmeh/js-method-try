@@ -15,11 +15,5 @@ Add to `Object.prototype` method `try` (via this small plugin)
 if (current_user.try.admin) {
   ...
 }
-
-// Also it's can be chained 
-
-if (house.try.room.try.table) {
-  ...
-}
 ```
 
