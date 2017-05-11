@@ -1,5 +1,5 @@
 # js-method-try
-JS method "try" like in Ruby on Rails (RoR)
+JS method "try" almost like in Ruby on Rails (RoR)
 
 ### Problem: 
 Long and ugly condition 
@@ -16,4 +16,4 @@ if (current_user.try.logOut()) {
   ...
 }
 ```
-It's checking `current_user` method `admin`. If method exsit then return self else return `undefined`.
+It's checking `current_user` method `admin`. If method exsit then return result else return `undefined`.
